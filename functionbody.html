@@ -1,0 +1,31 @@
+<!--Function in body -->
+<html>
+<body>
+<h2>Multiple Javascript Functions in Body</h2>
+<p id="demo1">A Paragraph</p>
+<p id="demo2">A sentence</p>
+<button type="button" onclick="myFunction()">Click</button>
+<script>
+function myFunction() {
+  document.getElementById("demo1").innerHTML = "Hello Deborah";
+  document.getElementById("demo2").innerHTML = "Hello Promise";
+}
+</script>
+</body>
+</html>
+
+<!--Function in head -->
+<html>
+<head>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+</head>
+<body>
+<h2>Demo JavaScript in Head</h2>
+<p id="demo">A Paragraph</p>
+<button type="button" onclick="myFunction()">Try it</button>
+</body>
+</html>
